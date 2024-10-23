@@ -1,6 +1,4 @@
-import java.io.Serializable;
-
-public class OrderProducts implements Serializable
+public class OrderProducts
 {
     private int orderId;
     private int productId;

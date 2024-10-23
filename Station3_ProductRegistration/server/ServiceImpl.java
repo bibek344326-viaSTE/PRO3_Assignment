@@ -9,7 +9,6 @@ public class ServiceImpl extends UnicastRemoteObject implements Service {
 
     }
 
-
     @Override
     public void registerProduct(int productId, String productType) throws RemoteException {
 

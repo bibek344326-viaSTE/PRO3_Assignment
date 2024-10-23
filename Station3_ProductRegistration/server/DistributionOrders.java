@@ -1,8 +1,6 @@
-
-import java.io.Serializable;
 import java.util.Date;
 
-public class DistributionOrders  implements Serializable {
+public class DistributionOrders  {
     private int orderId;
     private String customerDetails;
     private Date shippingDate;
