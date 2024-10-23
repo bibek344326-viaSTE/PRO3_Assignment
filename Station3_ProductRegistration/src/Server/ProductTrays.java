@@ -1,3 +1,5 @@
+package Server;
+
 public class ProductTrays {
     public ProductTrays(int product_id, int tray_id) {
         this.product_id = product_id;

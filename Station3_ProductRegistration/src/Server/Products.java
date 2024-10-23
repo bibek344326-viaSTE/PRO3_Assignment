@@ -1,3 +1,5 @@
+package Server;
+
 public class Products {
     public Products(String product_type, int product_id) {
         this.product_type = product_type;
