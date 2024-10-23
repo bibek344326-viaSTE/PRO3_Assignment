@@ -4,11 +4,13 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.List;
 
-public interface Service extends Remote {
+public interface ProductRegistrationRMI extends Remote {
 
     void registerProduct(int productId, String productType) throws RemoteException;
 
     Products getProductById(int productId) throws RemoteException;
+
+    List<ProductTrays> getAllProductTrays() throws RemoteException;
 
     List<ProductTrays> getAllProductTypes() throws RemoteException;
 

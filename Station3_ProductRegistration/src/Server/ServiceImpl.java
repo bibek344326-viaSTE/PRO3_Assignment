@@ -5,7 +5,7 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.List;
 
 
-public class ServiceImpl extends UnicastRemoteObject implements Service {
+public class ServiceImpl extends UnicastRemoteObject implements ProductRegistrationRMI {
 
     protected ServiceImpl() throws RemoteException {
 
@@ -22,9 +22,15 @@ public class ServiceImpl extends UnicastRemoteObject implements Service {
     }
 
     @Override
+    public List<ProductTrays> getAllProductTrays() throws RemoteException {
+        return List.of();
+    }
+
+    @Override
     public List<ProductTrays> getAllProductTypes() throws RemoteException {
         return List.of();
     }
+
 
     @Override
     public void createOrder(int orderId, int productId) throws RemoteException {
