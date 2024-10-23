@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-public class DistributionOrders {
 
-=======
 import java.io.Serializable;
 import java.util.Date;
 
@@ -49,6 +46,5 @@ public class DistributionOrders  implements Serializable {
     public void setRecallStatus(boolean recallStatus) {
         this.recallStatus = recallStatus;
     }
->>>>>>> Stashed changes
 }
 
